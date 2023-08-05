@@ -25,6 +25,8 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .header-nav,
@@ -32,10 +34,9 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 20px;
-    margin-left: 20px;
     padding: 20px 0;
-    width: 1024px;
+    width: 100%;
+    max-width: 1024px;
 }
 
 /* header-nav styling */
@@ -72,6 +73,7 @@ ul {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 700;
+    width: 90%;
 }
 
 .header-text p {
