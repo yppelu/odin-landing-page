@@ -1,3 +1,5 @@
+/* Basic 'boilerplate' styles */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
 
 * {
@@ -16,6 +18,8 @@ ul {
     list-style: none;
 }
 
+/* Header styling */
+
 .header {
     background-color: #1F2937;
     display: flex;
@@ -33,6 +37,8 @@ ul {
     padding: 20px 0;
     width: 1024px;
 }
+
+/* header-nav styling */
 
 .header-logo {
     color: #F9FAF8;
@@ -55,6 +61,8 @@ ul {
     margin-top: 100px;
     margin-bottom: 100px;
 }
+
+/* header-text styling */
 
 .header-text {
     width: 50%;
