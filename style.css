@@ -56,6 +56,11 @@ ul {
     color: #E5E7EB;
     font-size: 18px;
     font-weight: 400;
+    transition: 0.15s;
+}
+
+.header-links a:hover {
+    color: #FFFFFF;
 }
 
 .header-main {
@@ -93,11 +98,18 @@ ul {
     padding: 10px 35px;
 }
 
-/* And this style is for header button only */
+/* And the nex two styles are for header button only */
 .header-text button {
     background-color: #3882F6;
     color: #E5E7EB;
+    cursor: pointer;
+    transition: 0.15s;
 }
+
+.header-text button:hover {
+    background-color: #5294fd;
+}
+
 
 .header-image {
     align-self: stretch;
@@ -220,9 +232,17 @@ ul {
 .call-to-action-blue-block button {
     align-self: center;
     background-color: #3882F6;
-    border: 2px solid #E5E7EB;
+    border: 2px solid #F9FAF8;
     color: #F9FAF8;
     flex-shrink: 0;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.call-to-action-blue-block button:hover {
+    background-color: #F9FAF8;
+    border-color: 3882F6;
+    color: #3882F6;
 }
 
 /* Footer styling */
