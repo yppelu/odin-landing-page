@@ -162,6 +162,13 @@ ul {
     border-radius: 16px;
     height: 170px;
     width: 170px;
+    overflow: hidden;
+}
+
+.illustration div img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .illustration p {
