@@ -190,3 +190,37 @@ ul {
     font-weight: 700;
     margin-right: 30px;
 }
+
+/* The third section in main */
+
+.call-to-action-blue-block {
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 50px 120px;
+}
+
+.call-to-action-text h3 {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.call-to-action-text p {
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.call-to-action-blue-block button {
+    align-self: center;
+    background-color: #3882F6;
+    border: 2px solid #E5E7EB;
+    color: #F9FAF8;
+    flex-shrink: 0;
+}
