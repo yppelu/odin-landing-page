@@ -161,3 +161,32 @@ ul {
     margin: 8px auto 0 auto;
     width: 150px;
 }
+
+/* The second section in main */
+
+.main-section:nth-of-type(2) {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 790px;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quote-author {
+    align-self: flex-end;
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: 700;
+    margin-right: 30px;
+}
